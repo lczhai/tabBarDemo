@@ -14,6 +14,11 @@
 		A4B95FEA1D517EF2000B75B1 /* CustomTabbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4B95FE81D517EF2000B75B1 /* CustomTabbar.xcdatamodeld */; };
 		A4B95FEC1D517EF2000B75B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B95FEB1D517EF2000B75B1 /* Assets.xcassets */; };
 		A4B95FEF1D517EF2000B75B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B95FED1D517EF2000B75B1 /* LaunchScreen.storyboard */; };
+		A4B95FF81D517F1C000B75B1 /* ZLCNavGationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B95FF71D517F1C000B75B1 /* ZLCNavGationViewController.m */; };
+		A4B95FFB1D517F33000B75B1 /* ZLCTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B95FFA1D517F33000B75B1 /* ZLCTabbarViewController.m */; };
+		A4B95FFF1D517F92000B75B1 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B95FFE1D517F92000B75B1 /* ShopViewController.m */; };
+		A4B960151D5191DB000B75B1 /* bigmine.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B960131D5191DB000B75B1 /* bigmine.png */; };
+		A4B960161D5191DB000B75B1 /* bigshop.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B960141D5191DB000B75B1 /* bigshop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,14 @@
 		A4B95FEB1D517EF2000B75B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B95FEE1D517EF2000B75B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4B95FF01D517EF2000B75B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B95FF61D517F1C000B75B1 /* ZLCNavGationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLCNavGationViewController.h; path = ../ZLCNavGationViewController.h; sourceTree = "<group>"; };
+		A4B95FF71D517F1C000B75B1 /* ZLCNavGationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLCNavGationViewController.m; path = ../ZLCNavGationViewController.m; sourceTree = "<group>"; };
+		A4B95FF91D517F33000B75B1 /* ZLCTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLCTabbarViewController.h; path = ../ZLCTabbarViewController.h; sourceTree = "<group>"; };
+		A4B95FFA1D517F33000B75B1 /* ZLCTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLCTabbarViewController.m; path = ../ZLCTabbarViewController.m; sourceTree = "<group>"; };
+		A4B95FFD1D517F92000B75B1 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		A4B95FFE1D517F92000B75B1 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		A4B960131D5191DB000B75B1 /* bigmine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigmine.png; sourceTree = "<group>"; };
+		A4B960141D5191DB000B75B1 /* bigshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigshop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +73,15 @@
 		A4B95FDB1D517EF2000B75B1 /* CustomTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				A4B95FFC1D517F3C000B75B1 /* tab&nav */,
 				A4B95FDF1D517EF2000B75B1 /* AppDelegate.h */,
 				A4B95FE01D517EF2000B75B1 /* AppDelegate.m */,
 				A4B95FE21D517EF2000B75B1 /* ViewController.h */,
 				A4B95FE31D517EF2000B75B1 /* ViewController.m */,
+				A4B95FFD1D517F92000B75B1 /* ShopViewController.h */,
+				A4B95FFE1D517F92000B75B1 /* ShopViewController.m */,
+				A4B960131D5191DB000B75B1 /* bigmine.png */,
+				A4B960141D5191DB000B75B1 /* bigshop.png */,
 				A4B95FE51D517EF2000B75B1 /* Main.storyboard */,
 				A4B95FEB1D517EF2000B75B1 /* Assets.xcassets */,
 				A4B95FED1D517EF2000B75B1 /* LaunchScreen.storyboard */,
@@ -80,6 +98,17 @@
 				A4B95FDD1D517EF2000B75B1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4B95FFC1D517F3C000B75B1 /* tab&nav */ = {
+			isa = PBXGroup;
+			children = (
+				A4B95FF61D517F1C000B75B1 /* ZLCNavGationViewController.h */,
+				A4B95FF71D517F1C000B75B1 /* ZLCNavGationViewController.m */,
+				A4B95FF91D517F33000B75B1 /* ZLCTabbarViewController.h */,
+				A4B95FFA1D517F33000B75B1 /* ZLCTabbarViewController.m */,
+			);
+			path = "tab&nav";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B95FEF1D517EF2000B75B1 /* LaunchScreen.storyboard in Resources */,
+				A4B960151D5191DB000B75B1 /* bigmine.png in Resources */,
 				A4B95FEC1D517EF2000B75B1 /* Assets.xcassets in Resources */,
+				A4B960161D5191DB000B75B1 /* bigshop.png in Resources */,
 				A4B95FE71D517EF2000B75B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,8 +185,11 @@
 			files = (
 				A4B95FEA1D517EF2000B75B1 /* CustomTabbar.xcdatamodeld in Sources */,
 				A4B95FE41D517EF2000B75B1 /* ViewController.m in Sources */,
+				A4B95FFB1D517F33000B75B1 /* ZLCTabbarViewController.m in Sources */,
 				A4B95FE11D517EF2000B75B1 /* AppDelegate.m in Sources */,
 				A4B95FDE1D517EF2000B75B1 /* main.m in Sources */,
+				A4B95FF81D517F1C000B75B1 /* ZLCNavGationViewController.m in Sources */,
+				A4B95FFF1D517F92000B75B1 /* ShopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shining3d.CustomTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shining3d.CustomTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";

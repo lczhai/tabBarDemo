@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZLCTabbarViewController.h"
+#import "ZLCNavGationViewController.h"
+#import "ViewController.h"
+#import "ShopViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+	
+	
+	
+	
+	
+	
+	ZLCTabbarViewController *root = [[ZLCTabbarViewController alloc]init];
+	ZLCNavGationViewController *nav = [[ZLCNavGationViewController alloc]initWithRootViewController:root];
+	self.window.rootViewController = nav;
+	
+	
 	return YES;
 }
 
