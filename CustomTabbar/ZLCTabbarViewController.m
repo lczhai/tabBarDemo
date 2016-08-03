@@ -40,7 +40,12 @@
 	//设置TintColor
 	UITabBar.appearance.tintColor = [UIColor grayColor];
 	
-
+	
+	//设置tabbar字体颜色及size
+	[[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor grayColor], NSForegroundColorAttributeName, [UIFont fontWithName:@"Helvetica" size:14.0f],NSFontAttributeName,nil] forState:UIControlStateNormal];
+	[[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor redColor], NSForegroundColorAttributeName, [UIFont fontWithName:@"Helvetica" size:14.0f],NSFontAttributeName,nil] forState:UIControlStateSelected];
+	
+	
 
 	one = [[ViewController alloc]init];
 	one.title = @"one";
